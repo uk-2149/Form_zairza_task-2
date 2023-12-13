@@ -91,12 +91,8 @@ input, select, textarea {
     color: white;
     font-size: 1em;
     }
+
 input {
     background-color: #F3F8FF;
 }
-@media  (max-width: 1200px) {
-    body {
-        zoom: 103%;
-        font-size: 1.04em;
-    }
-}
+
