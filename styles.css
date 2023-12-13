@@ -94,7 +94,7 @@ input, select, textarea {
 
 @media  (max-width: 1200px) {
     body {
-        zoom: 145%;
+        zoom: 115%;
         font-size: 1.04em;
     }
 }
