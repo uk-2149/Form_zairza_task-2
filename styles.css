@@ -14,7 +14,7 @@ h1 {
     letter-spacing: 0.07ch;
 }
 
-h4 {
+h4, span {
     font-style: italic;
 }
 
@@ -94,13 +94,13 @@ input, select, textarea {
 @media  (max-width: 1010px) {
     body {
         zoom: 145%;
-        font-size: 1.4em;
+        font-size: 2em;
     }
     input, label, select {
-    height: 34px;
+    height: 40px;
 }
     input[type="radio"] {
-    height: 24px;
+    height: 28px;
     margin-left: 0 !important;
 }
 }
