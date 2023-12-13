@@ -15,14 +15,14 @@ h1 {
     letter-spacing: 0.07ch;
 }
 
-h4, .apply {
+h4 {
     font-style: italic;
 }
 
 form {
     width: 60vw;
     max-width: 600px;
-    min-width: 400px;
+    min-width: 200px;
     margin: auto;
     background-color: rgb(126, 48, 225);
     padding: 10px;
@@ -63,7 +63,7 @@ input[type="radio"] {
     vertical-align: middle;
 }
 
-.recommend, .improve, .boxes {
+.boxes {
     display: flex;
     flex-direction: column;
 }
@@ -95,5 +95,6 @@ input, select, textarea {
 @media  (max-width: 1200px) {
     body {
         zoom: 145%;
+        font-size: 1.3em;
     }
 }
