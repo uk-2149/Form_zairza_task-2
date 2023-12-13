@@ -99,13 +99,13 @@ input, select, textarea {
 @media  (max-width: 1010px) {
     body {
         zoom: 145%;
-        font-size: 2em;
+        font-size: 1.7em;
     }
     input, label, select {
-    height: 40px;
+    height: 60px;
 }
     input[type="radio"] {
-    height: 28px;
+    height: 48px;
     margin-left: 0 !important;
 }
     .head {
