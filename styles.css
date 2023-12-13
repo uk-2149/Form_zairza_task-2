@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h4 {
+h1, h6 {
     text-align: center;
     color: #F3F8FF;
 }
@@ -14,7 +14,7 @@ h1 {
     letter-spacing: 0.07ch;
 }
 
-h4, span {
+h6, span {
     font-style: italic;
 }
 
@@ -103,6 +103,6 @@ input, select, textarea {
     height: 28px;
     margin-left: 0 !important;
 }
-    h4 {
+    h6 {
         font-size: 0.79em !important;
 }
