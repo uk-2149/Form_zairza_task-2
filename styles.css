@@ -5,7 +5,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, .head {
+h1 {
+    text-align: center;
+    color: #F3F8FF;
+}
+
+.head {
     text-align: center;
     color: #F3F8FF;
 }
