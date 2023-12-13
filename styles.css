@@ -94,6 +94,13 @@ input, select, textarea {
 @media  (max-width: 1010px) {
     body {
         zoom: 145%;
-        font-size: 1.07em;
+        font-size: 1.4em;
     }
+    input, label, select {
+    height: 34px;
+}
+    input[type="radio"] {
+    height: 24px;
+    margin-left: 0 !important;
+}
 }
