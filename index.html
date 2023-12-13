@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Skill++ Survey Form</h1>
+    <h4>Thank you for taking the time to help us improve the platform</h4>
+    <!--Form-->
+    <form action="">
+        <label for="name">
+            What is your name?
+            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+        </label>
+        <br>
+        <label for="email">
+            What is your email address?
+            <input id="email" name="email" type="email" placeholder="Enter your Email Address" required>
+        </label>
+        <br>
+        <label for="age">
+            What is your age?
+            <input id="age" name="age" type="number" placeholder="Enter your Age" required>
+        </label>
+        <br>
+        <label for="current_role">
+            Which option best describes your current role?
+            <br>
+            <select name="role" id="dropdown">
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Part Time Job</option>
+                <option value="4">Freelancer</option>
+            </select>
+        </label>
+        <br>
+        <div class="recommend">
+        <label>
+            Would you recommend [Company Name] to a friend?
+        </label>
+        <label>
+            <input type="radio" name="recom" id="def" class="radioline">Definitely
+        </label>
+        <label>
+            <input type="radio" name="recom" id="mayb" class="radioline">Maybe
+        </label>
+        <label>
+            <input type="radio" name="recom" id="notsure" class="radioline">Not Sure
+        </label>
+        </div>
+        <br>
+        <div class="improve">
+        <label>
+            What would you like to see improved? <br> (Check all that apply)
+        </label>
+    <div class="boxes">
+        <label>
+            <input type="checkbox" name="front-end" id="front" class="checkline">Front-end Projects
+        </label>
+        <label>
+            <input type="checkbox" name="back-end" id="back" class="checkline">Back-end Projects
+        </label>
+        <label>
+            <input type="checkbox" name="challenges" id="chsllenges" class="checkline">Challenges
+        </label>
+    </div>
+        </div>
+        <br>
+        <label for="suggestion">
+            Any comments or suggestions?
+            <textarea name="comment" id="com" rows="4"></textarea>
+        </label>
+        <input type="submit" name="submit" id="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #E26EE5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h4 {
+    text-align: center;
+    color: #F3F8FF;
+}
+
+h1 {
+    letter-spacing: 0.07ch;
+}
+
+h4 {
+    font-style: italic;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    background-color: rgb(126, 48, 225);
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #F3F8FF;;
+    border-radius: 10px;
+    border: rgb(73, 16, 139) solid;
+}
+
+input, label, select, textarea {
+    width: 99%;
+}
+
+label {
+    font-size: 1.01em;
+}
+
+.boxes {
+    font-size: 1em !important;
+    margin-top: 10px;
+}
+
+input, label, select {
+    height: 26px;
+}
+
+input[type="radio"] {
+    height: 16px;
+    margin-left: 0 !important;
+}
+
+.radioline {
+    width: unset;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+.recommend, .improve, .boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkline {
+    width: unset;
+    margin-top: 9px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+input, select, textarea {
+    margin-top: 5px;
+    margin-bottom: 28px;
+    border-radius: 4px;
+  }
+
+  #submit{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(73, 16, 139);
+    height: 30px;
+    color: white;
+    font-size: 1em;
+    }
